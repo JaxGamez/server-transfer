@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>jax cool epic webserver</title>
+        <script>
+            function setHref() {
+            document.getElementById('jellyfin').href = window.location.protocol + "//" + window.location.hostname + ":8096/";
+            document.getElementById('webmin').href = window.location.protocol + "//" + window.location.hostname + ":10000/";
+            }
+        </script>
+    </head>
+    <body onload="setHref()">
+        <h1>welcome to my epic cool website</h1>
+        <h3>its not much at all</h3>
+        <p>i got different things here such as</p>
+        <a href="/" id="jellyfin">jellyfin - media server</a>
+        <a href="/" id="webmin">webmin - server manager</a>
+        <a href="/proxy/">proxy</a>
+        <a href="https://github.com/JaxGamez/">github/projects</a>
+        <a href="/links/">links to other stuff</a>
+    </body>
+</html>
